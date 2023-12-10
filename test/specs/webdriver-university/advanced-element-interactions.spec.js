@@ -126,7 +126,7 @@ describe('advanced element interactions - examples', () => {
         //await browser.pause(3000);
         await browser.switchToParentFrame();
         //await browser.pause(3000);
-    });
+    }); 
     it('Alerts', async () => {
         await browser.url("/Popup-Alerts/index.html");
         await $('#button1').click();
